@@ -1,5 +1,7 @@
 package util;
 
+
+//Global constants
 public class Global{
 	static final public int xResolution=600;
 	static final public int yResolution=600;
