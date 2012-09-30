@@ -7,10 +7,18 @@ public class Item {
 	private int height,width;
 	private int image;
 	
+	public Item(int _image, int _height, int _width){
+		image=_image;
+		height=_height;
+		width=_width;
+	}
 	public int getX(){return x;}
 	public int getY(){return y;}
 	public int getHeight(){return height;}
 	public int getWidth(){return width;}
-	
-	public Item(){}
+	public void init(){}
+	public void update(int _x,int _y){
+		x=_x;
+		y=_y;
+	}
 }

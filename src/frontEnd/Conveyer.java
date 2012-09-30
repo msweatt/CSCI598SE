@@ -3,6 +3,7 @@ package frontEnd;
 import util.Global;
 
 public class Conveyer {
+	private Global global;
 	private int speed;
 	private int image;
 	
@@ -12,5 +13,7 @@ public class Conveyer {
 	public void update(){
 		
 	}
-	public Conveyer(){}
+	public Conveyer(){
+		speed=global.conveyerStartSpeed; 
+	}
 }
